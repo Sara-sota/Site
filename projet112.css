@@ -1,0 +1,488 @@
+
+
+.begin{
+width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+background: linear-gradient(to right ,#ffffff,#ffffff,#000000,#0F5298
+,#ffffff,#ffffff,#ffffff,#ffffff, #0F5298,#000000	);
+
+}
+.section{
+    
+ padding: 4,5rem0 1,5rem ; 
+    
+ }
+
+.back{
+    background-image: url(bluee.jpg);
+    background-repeat: no-repeat;background-attachment: fixed;
+    background-size: cover;
+    
+}
+   
+    
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+        border-radius: 4px;
+        border: 2px solid #ccc;
+        padding: 20px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }     
+    
+input[type=text]:focus{
+    background-color: bisque;
+    width: 40%;
+}
+
+input[type=submit]{
+    background-color: darkcyan;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    text-decoration: none;
+    
+    
+    
+}
+
+select {
+        border-radius: 4px;
+        border: 2px solid #ccc;
+        padding: 20px 20px;
+        width: 40%;
+        margin: 8px 0;
+        box-sizing: border-box;
+        background-color: #f1f1f1;
+
+    }    
+
+ .h3{
+     font-family: fantasy;
+     color :wheat;
+     text-shadow: -1px 0 white, 0 1px black, 1px 0 black, 0 -1px black; 
+     
+     
+     
+}
+
+
+.liste
+{
+    flex: 1;    text-align: right;
+
+    
+}
+.liste ul li{
+    list-style: none;
+    
+    column-gap: 0,5rem;
+    margin: 0 30px;
+        display: inline-block;
+
+}
+.liste ul li a{
+font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 1rem;
+    color: black;
+}
+
+.liste ul li a:hover{
+        color: background black;
+
+    background-color:burlywood ;
+    border-radius: 25rem;
+    transition: background 0,9s;
+    
+    
+}
+.centter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.centere{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+
+
+
+
+///center de photo de houses
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+
+.typetext{
+     white-space: nowrap;
+  width: 200px;
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+    color: aliceblue;
+}
+    
+////type de ecriture
+.p{
+    color: azure;font-family: sans-serif;font-size: 12px;text-align: center
+}
+
+///changement automatic de limage
+.imgg{
+display: block;
+    width: 520px;
+    margin: 0 auto;
+    transition: 10000s;
+    
+}
+
+.sign{
+ font-family:cursive;  font-size: 45px; text-align: center;color: black;
+    
+}
+
+/*-----contact----*/
+/*-----صوؤة المباني المتغيرة ----*/
+
+
+.header{
+    height: 45vh;
+    min-height: 60vh;
+    width: 100%;
+    background-image:url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: change 40s infinite ease-in-out;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(images.jpg);
+        
+    }
+     20%
+    {
+        background-image: url(hh.jpg);
+        
+    }
+    
+     40%
+    {
+        background-image: url(background.jpg);
+        
+    }
+     60%
+    {
+        background-image: url(hh.jpg);
+        
+    }
+     80%
+    {
+        background-image: url(image.jpg);
+        
+    }
+    100%
+    {
+        background-image: url(background.jpg);
+        
+    }
+    
+}
+    
+    
+.opinionclient{
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+        background: #ffcab0;
+        padding: 25px;
+        cursor: pointer;
+        display: flex;
+    height: 80px
+    }
+    
+
+
+h4{
+    text-align: left;
+}
+h3{
+    text-align: right;
+    
+}
+h2{
+        text-align: center;
+    font-size: 55px;
+
+}
+
+m{
+  font-family: fantasy;
+    font-size: 30px;
+        color: white;
+}
+parag{
+    
+    font-family: monospace;
+    font-size: 27px;
+    
+    
+}
+
+
+g{
+     text-align: left;
+   
+        font-size: 35px;
+  font-family: fantasy;
+
+    
+}
+
+   
+.imgside{
+    
+  float: right;
+    width: 50%;
+   
+    
+}
+.position{
+    
+    position: absolute;
+    width: 60%;
+     left: 15%;
+   
+    
+}
+
+pageone{
+   text-align: left;
+    font-family: fantasy;
+        font-size: 33px;
+
+}
+
+info{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 32px;
+    
+}
+
+des{
+     text-align: center;
+       font-size: 22px;
+
+    
+}
+
+
+h5{
+    text-align: center;
+
+        font-size: 33px;
+  font-family: cursive;
+    text-shadow: 0 0 3px #600119;
+
+}
+
+
+h6{
+    text-align: center;
+            font-size: 27px;
+    
+
+}
+p{
+    
+    text-align: left;
+            font-size: 20px;
+    
+  font-family: monospace;
+ 
+    
+}
+
+button{
+border: none;
+    background-color: white;
+    border:2px solid #555555;
+    color: aliceblue;
+    text-align: center;
+    font-size:20px 80px;
+    padding: 16px;
+    border-radius: 12px;
+    display: inline-block;
+    
+    
+}
+button:hover{
+    
+background-color: forestgreen;
+    color: white;
+    
+}
+
+.fel{
+    
+   flex: 33.33%;
+    padding: 5px;
+}
+.fell{
+    display: flex;
+    
+}
+ h{
+    text-align: center;
+
+        font-size: 20px;
+  font-family: cursive;
+    text-shadow: 0 0 3px #600119;
+
+}   
+    
+    
+    
+ centre{
+        font-family: cursive;
+        text-align: center;
+}
+    
+    
+
+comment{
+   font-family: cursive;
+           font-size: 22px;
+
+    
+}
+
+.box{
+        border-radius: 50px;
+        margin-bottom: 5%;
+        padding: 35px;
+        cursor: pointer;
+        display: flex;
+    background:  #D3D3D3;
+height:     200px;
+    
+    
+ text-align: left;
+color: black;
+    font-size: 22px;
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+.arrow{
+    
+    
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+}
+word{
+    text-align: center;
+    color: goldenrod;
+    font-family: fantasy;
+    font-size: 43px;
+    
+}
+
+
+.righ{
+    
+    transform: rorate(45deg);
+    -webkit-transform: rorate(45deg);
+    
+}
+
+
+
+.opinionclient img{   
+    height: 50px;
+        margin-left: 5px;
+        margin-right: 0px;
+        border-radius: 50%;
+        
+}
+    
+.logo img{   
+    height: 350px;
+        margin-left: 500px;
+        margin-right: 300px;
+        border-radius: 50%;
+        
+    
+    }
+
+
+
+
+.contact{
+    margin: 100px auto;
+    width: 80%;
+    background-image: url(66.jpg);
+    
+    background-image: linear-gradient(rgba(0,0,0,0.7)
+);
+    
+    image-resolution: 300dpi;
+
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+            
+}
+    
+
+.pic{
+    margin: 100px auto;
+    width: 80%;
+   
+
+}
+
+.contact m{
+color: black;
+    font-size:30px;
+        font-family: cursive;
+   
+    
+}
+@media(max-width)
+
+
+
+    .gauche{
+    object-position:left;    
+        
+}
